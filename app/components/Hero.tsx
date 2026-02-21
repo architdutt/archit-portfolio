@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail } from 'lucide-react';
+import Image from 'next/image';
 import React from 'react';
 
 export default function Hero() {
@@ -10,7 +11,19 @@ export default function Hero() {
         <div className="absolute w-[800px] h-[800px] bg-purple-600/10 rounded-full blur-[150px] bottom-[-300px] right-[-200px] mix-blend-screen" />
       </div>
 
-      <div className="z-10 max-w-4xl mx-auto space-y-8 fade-in-up">
+      <div className="z-10 max-w-4xl mx-auto space-y-8 fade-in-up flex flex-col items-center">
+        {/* Profile Image */}
+        <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full p-2 border border-slate-200 dark:border-white/10 bg-white/50 dark:bg-white/5 backdrop-blur-md shadow-xl mb-4 group transition-transform duration-300 hover:scale-105">
+          <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500/20 to-purple-500/20 animate-pulse duration-[4s]" />
+          <Image
+            src="/profile.jpeg"
+            alt="Archit Dutt Sharma"
+            fill
+            className="rounded-full object-cover z-10 p-1"
+            priority
+          />
+        </div>
+
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-blue-500/30 bg-blue-500/10 text-sm font-medium text-blue-700 dark:text-blue-300 backdrop-blur-sm">
           <span className="relative flex h-2 w-2">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
