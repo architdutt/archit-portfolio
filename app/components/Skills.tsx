@@ -26,7 +26,12 @@ const skillCategories = [
   {
     title: 'AI & Prompt Engineering',
     icon: <Bot className="w-6 h-6 text-amber-400" />,
-    skills: ['GitHub Copilot (2+ Years)', 'Antigravity', 'Agentic AI Training', 'Prompt Engineering'],
+    skills: [
+      'GitHub Copilot: accelerating full-stack development speed',
+      'Google Antigravity: configuring and tuning agentic tools for automated workflows',
+      'Agentic AI Training: developing AI agents to handle complex multi-step reasoning',
+      'Prompt Engineering: building custom prompt pipelines for specialized tasks'
+    ],
     color: 'from-amber-500/20 to-orange-500/20',
     borderColor: 'border-amber-500/30'
   }
@@ -61,9 +66,9 @@ export default function Skills() {
               <h3 className="text-2xl font-semibold text-slate-800 dark:text-white mb-6 tracking-tight transition-colors duration-300">{category.title}</h3>
               <ul className="space-y-4">
                 {category.skills.map((skill) => (
-                  <li key={skill} className="flex items-center text-slate-600 dark:text-slate-300 group/item transition-colors duration-300">
-                    <span className="w-2 h-2 rounded-full bg-slate-300 dark:bg-slate-600 mr-3 group-hover/item:bg-blue-500 dark:group-hover/item:bg-blue-400 transition-colors"></span>
-                    <span className="group-hover/item:text-slate-900 dark:group-hover/item:text-white transition-colors text-lg">{skill}</span>
+                  <li key={skill} className="flex items-start text-slate-600 dark:text-slate-300 group/item transition-colors duration-300">
+                    <span className="w-2 h-2 shrink-0 rounded-full bg-slate-300 dark:bg-slate-600 mr-3 mt-2.5 group-hover/item:bg-blue-500 dark:group-hover/item:bg-blue-400 transition-colors"></span>
+                    <span className="group-hover/item:text-slate-900 dark:group-hover/item:text-white transition-colors text-lg leading-snug">{skill}</span>
                   </li>
                 ))}
               </ul>

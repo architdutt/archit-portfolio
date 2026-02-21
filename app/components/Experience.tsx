@@ -9,18 +9,18 @@ const experiences = [
     projects: [
       {
         name: 'My Shawbrook (Banking)',
-        description: 'Led the development of a modern, scalable web application leveraging Next.js and ReactJS. Implemented robust CI/CD pipelines using Azure DevOps to ensure rapid, reliable deployments and seamless integration capabilities.',
+        description: 'Led the development of a modern, scalable web application leveraging Next.js and ReactJS. Implemented robust CI/CD pipelines using Azure DevOps to ensure rapid deployments, reducing release cycles by [X]% and accelerating time-to-market.',
         highlights: ['Next.js/ReactJS', 'Azure CI/CD', 'Banking Domain']
       },
       {
         name: 'Unum CLI 3.0 (Insurance)',
-        description: 'Architected and delivered critical features for the insurance platform, significantly improving performance and user experience.',
+        description: 'Architected critical features for an insurance platform using .NET Core, reducing platform load times by [X]% and earning a Spot Award for delivery excellence.',
         highlights: ['.NET Core', 'C#', 'Insurance Domain'],
         award: 'Spot Award'
       },
       {
         name: 'Midtronics',
-        description: 'Developed and maintained a comprehensive battery management solution utilizing .NET MVC and JavaScript, ensuring high accuracy and reliability in data processing.',
+        description: 'Developed and maintained a comprehensive battery management solution utilizing .NET MVC and JavaScript, ensuring high accuracy in data processing and driving an [X]% increase in operational efficiency.',
         highlights: ['.NET MVC', 'JavaScript', 'Battery Management']
       }
     ]

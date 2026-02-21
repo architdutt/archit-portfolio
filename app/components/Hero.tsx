@@ -41,11 +41,14 @@ export default function Hero() {
         </h2>
 
         <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 leading-relaxed max-w-2xl mx-auto transition-colors duration-300">
-          I build robust, scalable web applications and enterprise solutions. With a deep passion for modern frontend technologies and solid backend architecture, I turn complex problems into elegant user experiences.
+          I build robust, scalable web applications and enterprise solutions. My engineering philosophy centers on clean backend architecture using .NET Core and performant frontend experiences via Next.js. I have a deep drive for building resilient microservices and turning complex problems into elegant user experiences.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-6">
-          <a href="#contact" className="px-8 py-4 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-all shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] hover:-translate-y-1 w-full sm:w-auto">
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="px-8 py-4 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-all shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] hover:-translate-y-1 w-full sm:w-auto text-center">
+            Download Resume
+          </a>
+          <a href="mailto:architdutt@gmail.com" className="px-8 py-4 rounded-full bg-slate-200/50 dark:bg-white/5 border border-slate-300 dark:border-white/10 text-slate-700 dark:text-white hover:bg-slate-300/50 dark:hover:bg-white/10 hover:border-slate-400 dark:hover:border-white/30 transition-all backdrop-blur-sm hover:-translate-y-1 w-full sm:w-auto text-center">
             Get In Touch
           </a>
           <div className="flex items-center gap-4">
