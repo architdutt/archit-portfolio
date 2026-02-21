@@ -42,7 +42,7 @@ export default function Hero() {
             <a href="https://linkedin.com/in/architdutt" target="_blank" rel="noopener noreferrer" className="p-4 rounded-full bg-slate-200/50 dark:bg-white/5 border border-slate-300 dark:border-white/10 text-slate-700 dark:text-white hover:bg-slate-300/50 dark:hover:bg-white/10 hover:border-slate-400 dark:hover:border-white/30 transition-all backdrop-blur-sm hover:-translate-y-1">
               <Linkedin className="w-5 h-5" />
             </a>
-            <a href="mailto:contact@example.com" className="p-4 rounded-full bg-slate-200/50 dark:bg-white/5 border border-slate-300 dark:border-white/10 text-slate-700 dark:text-white hover:bg-slate-300/50 dark:hover:bg-white/10 hover:border-slate-400 dark:hover:border-white/30 transition-all backdrop-blur-sm hover:-translate-y-1">
+            <a href="mailto:architdutt@gmail.com" className="p-4 rounded-full bg-slate-200/50 dark:bg-white/5 border border-slate-300 dark:border-white/10 text-slate-700 dark:text-white hover:bg-slate-300/50 dark:hover:bg-white/10 hover:border-slate-400 dark:hover:border-white/30 transition-all backdrop-blur-sm hover:-translate-y-1">
               <Mail className="w-5 h-5" />
             </a>
           </div>
